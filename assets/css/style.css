@@ -1,0 +1,69 @@
+/*Estilos da página index.html*/
+
+.center {
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.container {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.container > div {
+    width: 600px;
+    text-align: center;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;    
+}
+
+#menu li {
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: gray;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.tm-social {
+    width: 30px;
+    height: 30px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+ 
+
+/*Estilos da página sobre.html*/
