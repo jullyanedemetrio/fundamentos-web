@@ -64,6 +64,13 @@
 .p-10 {
     padding: 10px;
 }
- 
+
+#grad {
+    background-image: linear-gradient(to right, #e3e1dc00, #b3b3b6);
+}
 
 /*Estilos da página sobre.html*/
+
+#descricao a {
+    color:black;
+}
